@@ -1,0 +1,6 @@
+[package]
+name = "l04-core-extractors-path-and-json"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
