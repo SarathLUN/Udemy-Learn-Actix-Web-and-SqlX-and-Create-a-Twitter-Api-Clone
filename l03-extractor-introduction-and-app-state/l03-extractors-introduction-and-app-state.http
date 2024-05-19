@@ -1,0 +1,5 @@
+### POST to change the AppState
+POST http://localhost:8080/
+
+### GET to change the AppState
+GET http://localhost:8080/
