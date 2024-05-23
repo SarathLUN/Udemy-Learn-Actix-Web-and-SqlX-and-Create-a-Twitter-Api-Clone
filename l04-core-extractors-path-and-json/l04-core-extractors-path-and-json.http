@@ -1,0 +1,11 @@
+### GET user_name by ID:
+GET http://localhost:8001/v1/user/5
+
+### POST insert_user
+POST http://localhost:8001/v1/user
+Content-Type: application/json
+
+{
+  "user_name": "tim",
+  "full_name": "Tim Tom"
+}
