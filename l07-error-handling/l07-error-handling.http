@@ -1,0 +1,4 @@
+### GET simple custom error
+GET http://localhost:8001/
+
+###
