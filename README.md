@@ -4,3 +4,4 @@
 2. Lesson 03: Extractors: Introduction and App State => [link](./l03-extractor-introduction-and-app-state/README.md)
 3. Lesson 04: Extractors: The Core Extractors Path and Json => [link](./l04-core-extractors-path-and-json/README.md)
 4. Lesson 05: Extractors: Multipart, Handling Forms and Files => [link](./l05-extractors-multipart-handling-forms-and-files/README.md)
+5. Lesson 06: Response => [link](./l06-response/README.md)
