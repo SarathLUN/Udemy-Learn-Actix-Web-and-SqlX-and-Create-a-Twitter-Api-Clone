@@ -6,3 +6,4 @@
 4. Lesson 05: Extractors: Multipart, Handling Forms and Files => [link](./l05-extractors-multipart-handling-forms-and-files/README.md)
 5. Lesson 06: Response => [link](./l06-response/README.md)
 6. Lesson 07: Error Handling => [link](./l07-error-handling/README.md)
+7. Lesson 08: Handlers => [link]()

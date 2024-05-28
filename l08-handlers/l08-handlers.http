@@ -1,0 +1,13 @@
+### GET user by user_name
+GET http://localhost:8001/user/tim
+
+### GET user by user_name
+GET http://localhost:8001/user/jon
+
+### GET user by user_name
+GET http://localhost:8001/user/chris
+
+### GET user by user_name with error
+GET http://localhost:8001/user/error
+
+###
