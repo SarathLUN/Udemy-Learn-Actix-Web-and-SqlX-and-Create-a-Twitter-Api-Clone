@@ -54,4 +54,4 @@ running 0 tests
 test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
 ```
 
-- with this example, we can see that both `main.rs` and integration test can access to the core functionalities that expose from `lib.rs`.
+- with this example, we can see that both `main.rs` and integration test can access to the core functionalities that expose from `lib.rs` without and barer.
