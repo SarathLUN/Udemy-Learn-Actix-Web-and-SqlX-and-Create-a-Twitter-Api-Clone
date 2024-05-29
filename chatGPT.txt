@@ -1,0 +1,42 @@
+I want you to act as a professional Rust trainer. you are teaching the course "Learn Actix Web and SqlX and Create a Twitter Api Clone." I will give you the session transcripts, and you will give me the key takeaway and turn into practical labs with code that I can run to demonstrate the key points of the lecture. ask me more questions if you not clear about the transcript, or else you start your answer. Below is the transcript:
+Lesson 12: Overview of Project Structure
+`All right, guys.
+ In this video, we're going to do a short overview of the project itself, the Twitter API clone, just
+ to make sure that we're all on the same page in terms of certain structures of a larger rust application.
+ So the first thing to note is that the entire source code for all of the sub projects within this video
+ series are living inside of a workspace.
+ So you can see the various sections that are laid out here.
+ You have a single workspace and then you have all the individual members distinguished by some root
+ folder, right?
+ So then the one that we care about for the coming videos is going to be inside of Section three.
+ The section we're currently at, and that's going to be the Twitter API project.
+ So how is this project laid out?
+ Now the thing that you're going to notice kind of off the bat is that the source folder doesn't have
+ just a single main file and then all the related files, it has this additional lib file.
+ And the reason for that structure is so that the eye can have a separate integration test folder.
+ And then this is where all of the individual integration tests would live on.
+ And because these tests are these integration tests, not the unit test, but these integration tests
+ are kind of their own package unto themselves.
+ They need to be able to access the core project, which normally, if it was just a binary project,
+ you wouldn't be able to do that.
+ So therefore we create this extra lib file.
+ Now the way that that is done is by going into the projects Cargo.toml file, and then you indicate
+ that your project is basically going to be importable by other crates by filling out this lib section,
+ right?
+ So you indicate where your lib is, which has.
+ Which has all of this stuff that you're publicly exporting out or making importable from other crates.
+ And this is why our integration tests are able to access the core project.
+ And then.
+ And then you just indicate that main classes is the main binary and then the name is going to be servers.
+ So then.
+ If we take a look, we can see that we have this just arbitrary named function.
+ There's no particular meaning in this.
+ I just picked one.
+ And basically all of the stuff that you had seen in the prior videos about instantiating the service,
+ the app instance, the routes, all that good stuff is going to be in here as opposed to the actual
+ main file.
+ And then the main file itself just becomes an executor or or an initializer to kick everything off.
+ So it's basically empty of any real code and it indicates the project and the function that we want
+ and it just kicks it off.
+ So just really quick introduction to the basic setup and then all of these files related to Docker and
+ some of the other peripheral files, we'll be getting into as we go through the project.`
