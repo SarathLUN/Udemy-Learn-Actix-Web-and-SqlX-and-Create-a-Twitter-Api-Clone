@@ -13,4 +13,5 @@
 1. Lesson 10: Learning SQLX database driver => [link](./l10-learning-sqlx-database-driver/README.md)
 
 ## Section 3: Let's build our App!
-1. Lesson 12: Overview of Project Structure => [link]()
+1. Lesson 12: Overview of Project Structure => [link](./l12-overview-of-project-structure/README.md)
+2. Lesson 13: First Layer: Data Access => [link]()
