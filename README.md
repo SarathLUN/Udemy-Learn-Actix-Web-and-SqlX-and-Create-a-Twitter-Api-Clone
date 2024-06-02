@@ -14,4 +14,4 @@
 
 ## Section 3: Let's build our App!
 1. Lesson 12: Overview of Project Structure => [link](./l12-overview-of-project-structure/README.md)
-2. Lesson 13: First Layer: Data Access => [link]()
+2. Lesson 13 & 14: Final Project => [link](./l13-l14-final-project-twitter-api-clone/README.md)
