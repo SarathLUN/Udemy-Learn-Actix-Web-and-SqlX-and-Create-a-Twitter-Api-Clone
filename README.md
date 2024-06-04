@@ -15,3 +15,7 @@
 ## Section 3: Let's build our App!
 1. Lesson 12: Overview of Project Structure => [link](./l12-overview-of-project-structure/README.md)
 2. Lesson 13 & 14: Final Project => [link](./l13-l14-final-project-twitter-api-clone/README.md)
+
+## My Certificate:
+![UC-f5a757ce-75f4-4751-aea3-8eb2d3499b02.jpg](UC-f5a757ce-75f4-4751-aea3-8eb2d3499b02.jpg)
+
